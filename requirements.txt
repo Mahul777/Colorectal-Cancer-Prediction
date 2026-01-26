@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+flask
+mlflow
+kfp      # kfp means Kubeflow Pipelines
+setuptools
+joblib
+seaborn
