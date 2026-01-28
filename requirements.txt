@@ -8,3 +8,5 @@ kfp      # kfp means Kubeflow Pipelines
 setuptools
 joblib
 seaborn
+statsmodels
+imbalanced-learn
