@@ -27,3 +27,28 @@
 weighted avg       0.53      0.60      0.45     33500
 
 2026-01-29 10:56:18,388 - INFO - Model & metrics saved
+2026-01-29 13:11:20,075 - INFO - Data loaded successfully
+2026-01-29 13:11:20,159 - INFO - Missing values handled & target encoded
+2026-01-29 13:11:22,270 - INFO - Categorical encoding completed
+2026-01-29 13:11:22,365 - INFO - Top 8 features selected: ['Healthcare_Costs', 'Tumor_Size_mm', 'Treatment_Type_ Radiotherapy  ', 'Diet_Risk_ Low      ', 'Diabetes_ Yes     ', 'Age', 'Survival_5_years_ Yes             ', 'Mortality_Rate_per_100K']
+2026-01-29 13:11:22,456 - INFO - Artifacts saved
+2026-01-29 13:11:22,456 - INFO - Data processing pipeline completed successfully
+2026-01-29 13:11:22,456 - INFO - Artifacts loaded successfully
+2026-01-29 13:11:45,978 - INFO - Model training completed
+2026-01-29 13:11:46,168 - INFO - Evaluation completed
+2026-01-29 13:11:55,018 - INFO - Model & metrics saved
+2026-01-29 13:18:23,770 - INFO - Data loaded successfully
+2026-01-29 13:18:23,837 - INFO - Missing values handled & target encoded
+2026-01-29 13:18:25,858 - INFO - Categorical encoding completed
+2026-01-29 13:18:25,938 - INFO - Top 8 features selected: ['Healthcare_Costs', 'Tumor_Size_mm', 'Treatment_Type_ Radiotherapy  ', 'Diet_Risk_ Low      ', 'Diabetes_ Yes     ', 'Age', 'Survival_5_years_ Yes             ', 'Mortality_Rate_per_100K']
+2026-01-29 13:18:26,018 - INFO - Artifacts saved
+2026-01-29 13:18:26,018 - INFO - Data processing pipeline completed successfully
+2026-01-29 13:18:26,022 - INFO - Artifacts loaded successfully
+2026-01-29 13:18:47,087 - INFO - Model training completed
+2026-01-29 13:18:47,230 - INFO - accuracy: 0.598776119402985
+2026-01-29 13:18:47,230 - INFO - precision: 0.5998557822311691
+2026-01-29 13:18:47,230 - INFO - recall: 0.9938769414575866
+2026-01-29 13:18:47,230 - INFO - f1_score: 0.7481591126267074
+2026-01-29 13:18:47,230 - INFO - roc_auc: 0.49830988765744477
+2026-01-29 13:18:47,238 - INFO - Evaluation completed
+2026-01-29 13:18:50,796 - INFO - Model & metrics saved

@@ -104,7 +104,7 @@ class DataProcessor:
             self.Y = self.data[target_column]
             self.X = self.data.drop(columns=[target_column])
 
-            # 🚫 Remove leakage
+            # Remove leakage
             self.X.drop(columns=["Patient_ID"], inplace=True, errors="ignore")
 
             chi2_scores, _ = chi2(self.X, self.Y)
