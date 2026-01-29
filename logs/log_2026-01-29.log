@@ -1,0 +1,29 @@
+2026-01-29 10:55:32,508 - INFO - Data loaded successfully
+2026-01-29 10:55:32,576 - INFO - Missing values handled & target encoded
+2026-01-29 10:55:34,432 - INFO - Categorical encoding completed
+2026-01-29 10:55:34,512 - INFO - Top 8 features selected: ['Healthcare_Costs', 'Tumor_Size_mm', 'Treatment_Type_ Radiotherapy  ', 'Diet_Risk_ Low      ', 'Diabetes_ Yes     ', 'Age', 'Survival_5_years_ Yes             ', 'Mortality_Rate_per_100K']
+2026-01-29 10:55:34,591 - INFO - Artifacts saved
+2026-01-29 10:55:34,591 - INFO - Data processing pipeline completed successfully
+2026-01-29 10:55:57,066 - INFO - Data loaded successfully
+2026-01-29 10:55:57,136 - INFO - Missing values handled & target encoded
+2026-01-29 10:55:59,017 - INFO - Categorical encoding completed
+2026-01-29 10:55:59,094 - INFO - Top 8 features selected: ['Healthcare_Costs', 'Tumor_Size_mm', 'Treatment_Type_ Radiotherapy  ', 'Diet_Risk_ Low      ', 'Diabetes_ Yes     ', 'Age', 'Survival_5_years_ Yes             ', 'Mortality_Rate_per_100K']
+2026-01-29 10:55:59,166 - INFO - Artifacts saved
+2026-01-29 10:55:59,166 - INFO - Data processing pipeline completed successfully
+2026-01-29 10:55:59,205 - INFO - Artifacts loaded successfully
+2026-01-29 10:56:18,247 - INFO - Model training completed
+2026-01-29 10:56:18,377 - INFO - accuracy: 0.598776119402985
+2026-01-29 10:56:18,377 - INFO - precision: 0.5998557822311691
+2026-01-29 10:56:18,377 - INFO - recall: 0.9938769414575866
+2026-01-29 10:56:18,377 - INFO - f1_score: 0.7481591126267074
+2026-01-29 10:56:18,377 - INFO - roc_auc: 0.49830988765744477
+2026-01-29 10:56:18,377 - INFO - classification_report:               precision    recall  f1-score   support
+
+           0       0.43      0.01      0.01     13412
+           1       0.60      0.99      0.75     20088
+
+    accuracy                           0.60     33500
+   macro avg       0.52      0.50      0.38     33500
+weighted avg       0.53      0.60      0.45     33500
+
+2026-01-29 10:56:18,388 - INFO - Model & metrics saved
