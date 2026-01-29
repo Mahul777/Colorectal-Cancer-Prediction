@@ -79,7 +79,7 @@ class ModelTrainer:
         joblib.dump(self.metrics, os.path.join(self.processed_path, "metrics.pkl"))
 
         # Log model to MLflow
-        mlflow.sklearn.log_model(self.model, "model")
+        mlflow.sklearn.log_model(sk_model=self.model, name="gradient_boosting_model")
 
         logger.info("Model & metrics saved")
 
