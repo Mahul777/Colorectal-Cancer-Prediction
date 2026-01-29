@@ -1,2 +1,0 @@
-kubeflow_pipeline
-src
