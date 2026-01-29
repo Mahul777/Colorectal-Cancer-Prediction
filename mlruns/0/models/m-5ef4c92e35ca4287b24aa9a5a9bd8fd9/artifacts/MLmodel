@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/sahus/OneDrive/Desktop/Colorectal Cancer Prediction/mlruns/0/models/m-5ef4c92e35ca4287b24aa9a5a9bd8fd9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-5ef4c92e35ca4287b24aa9a5a9bd8fd9
+model_size_bytes: 797161
+model_uuid: m-5ef4c92e35ca4287b24aa9a5a9bd8fd9
+prompts: null
+run_id: 53371e4e13184019b8d10153a7695189
+utc_time_created: '2026-01-29 08:53:52.082110'
