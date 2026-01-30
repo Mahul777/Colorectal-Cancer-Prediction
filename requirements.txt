@@ -4,7 +4,7 @@ matplotlib
 scikit-learn
 flask
 mlflow
-kfp      # kfp means Kubeflow Pipelines
+kfp==1.8.22
 setuptools
 joblib
 seaborn
